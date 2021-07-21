@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 3rem;
+}
+
+img {
+    width: 40vw;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+#circle {
+    display: relative;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(216, 41, 41);
+    border-radius: 50%;
+}
+
+#circle > p {
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#square {
+    margin-top: 200px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(47, 38, 179);
+  }
+
+.darkenImage {
+    filter: brightness(50%)
+}
+
+.borderImage {
+    border-radius: 20px;
+}
+
+.styleBtn {
+    background-color: royalblue;
+    margin-top: 200px;
+    width: 100px;
+    height: 50px;
+}
+
+.hiddenClass {
+    display: none;
+}
+
+.toggleAnsCorrect {
+    display: none;
+}
+.toggleAnsWrong {
+    display: none;
+}
